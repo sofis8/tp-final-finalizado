@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #252a30;
+}
+
+.arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background-color: white;
+}
+
+.arriba nav {
+    display: flex;
+    gap: 25px;
+}
+
+.arriba a {
+    text-decoration: none;
+    color: #252a30;
+}
+
+.arriba a:hover {
+    color: #176bd1;
+}
+
+.presentacion {
+    background: linear-gradient(to right, #064baf, #36c5ef);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.presentacion h1 {
+    font-size: 40px;
+}
+
+.presentacion p {
+    font-size: 20px;
+}
+
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+.filtros a:hover {
+    color: #051425;
+}
+.filtros a {
+    color: #064baf;
+    text-decoration: none;
+}
+
+
+main {
+    margin: center;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #164f9b;
+}
+
+
+main h3 {
+    margin-top: 35px;
+    border-bottom: 2px solid #176bd1;
+    padding-bottom: 10px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.articulo {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 220px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.articulo img {
+    width: 100%;
+    height: 180px;
+}
+
+.articulo h4 {
+    font-size: 20px;
+    color: #164f9b;
+}
+
+.articulo p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.articulo:hover {
+    border-color: #176bd1;
+}
+
+
+footer {
+    background-color: #20252d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #36c5ef;
+}
+
+/* inicio */
+
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 8%;
+
+}
+
+#imagen {
+    border-radius: 10px;
+}
+
+.texto h2 {
+    color: #164f9b;
+    font-size: 30px;
+}
+
+.texto a {
+    color: #164f9b;
+}
+
+.productos2 h2 {
+    text-align: center;
+    color: #164f9b;
+
+}
+
+.final {
+    background: linear-gradient(to right, #a2b3ce, #9ae0f5);
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.final a {
+    color: #164f9b;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer {
+margin-top: 50px;
+}
